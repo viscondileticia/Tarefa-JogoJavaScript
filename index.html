@@ -9,29 +9,26 @@
     <title>Jogo da #</title>
 </head>
 <body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
 
-    <table class="margin">
- 
-         <tr>
-            <td align="center" valign="middle" id="spc11" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc12" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc13" class="board" onclick="joga(this.id);verif();"></td>
-            </tr>
-                 
-            <tr>
-            <td align="center" valign="middle" id="spc21" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc22" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc23" class="board" onclick="joga(this.id);verif();"></td>
-            </tr>
-                 
-            <tr>
-            <td align="center" valign="middle" id="spc31" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc32" class="board" onclick="joga(this.id);verif();"></td>
-            <td align="center" valign="middle" id="spc33" class="board" onclick="joga(this.id);verif();"></td>
-            </tr>
-                 
-            </table>
-            <br><input type="button" name="limpar" value="Novo jogo" onclick="novo();" />
+    <main class="margin">
+        <div align="center" valign="middle" id="spc11" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc12" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc13" class="board" onclick="joga(this.id);verif();"></div>
+
+
+        <div align="center" valign="middle" id="spc21" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc22" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc23" class="board" onclick="joga(this.id);verif();"></div>
+
+        <div align="center" valign="middle" id="spc31" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc32" class="board" onclick="joga(this.id);verif();"></div>
+        <div align="center" valign="middle" id="spc33" class="board" onclick="joga(this.id);verif();"></div>
+    </main>
+
+    <br><input type="button" name="limpar" value="Novo jogo" onclick="novo();" />
 
 </body>
 </html>
