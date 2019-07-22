@@ -1,0 +1,14 @@
+.board{
+    width: 100px;
+    height: 100px;
+    background:rgb(98, 153, 194);
+    font-size: 70px;
+    color:rgb(166, 65, 71);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    }
+
+.margin{
+background:rgb(233, 233, 234);
+}
