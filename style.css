@@ -1,14 +1,48 @@
-.board{
-    width: 100px;
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba( 2, 48, 89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
     height: 100px;
-    background:rgb(98, 153, 194);
-    font-size: 70px;
-    color:rgb(166, 65, 71);
-    cursor: pointer;
+    width: 100vw;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    height: 50vh;
+    width: 50vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.board{
+    align-items: center;
+    background:rgb(54, 165, 154);
+    color:rgb(245, 100, 105);
+    cursor: pointer;
+    display: flex;
+    font-size: 70px;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
     }
 
 .margin{
-background:rgb(233, 233, 234);
+background: rgb(3, 94, 114);
 }
