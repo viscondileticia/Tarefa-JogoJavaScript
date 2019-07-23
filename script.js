@@ -13,6 +13,16 @@ function joga(space){
         }
    }
 }
+
+function novo(){
+    for (i=1; i<4; i++){
+       for (j=1; j<4; j++){
+          nomecelula = 'spc' + i + j
+           document.getElementById(nomecelula).innerHTML = '';
+      
+      }
+   }
+}
  
 function verif(){
     s11 = document.getElementById('spc11').innerHTML;
@@ -30,12 +40,4 @@ function verif(){
     }
  }
  
- function novo(){
-    for (i=1; i<4; i++){
-       for (j=1; j<4; j++){
-          nomecelula = 'spc' + i + j
-           document.getElementById(nomecelula).innerHTML = '';
-      
-      }
-   }
-}
+ 
