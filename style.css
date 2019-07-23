@@ -1,18 +1,18 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color:rgba( 2, 48, 89);
+    align-items: center;
+    background-color: rgba( 2, 48, 89);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    height: 100px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100vw;
 }
 
 h1{
@@ -20,15 +20,18 @@ h1{
 }
 
 main{
-    height: 50vh;
-    width: 50vh;
+    align-items: center;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    width: 50vh;
+}
 
+.margin{
+    background: rgb(3, 94, 114);
 }
 
 .board{
@@ -43,6 +46,3 @@ main{
     width: 100px;
     }
 
-.margin{
-background: rgb(3, 94, 114);
-}
